@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo","sans-serif";
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo",sans-serif;
 }
 ul{
     padding-left:0
@@ -28,7 +28,7 @@ li {
 }
 .name{
     padding-top: 25px;
-    font-size: 45px;
+    font-size: 1.75rem;
 }
 .overview{
     padding: 20px 0;
@@ -36,20 +36,31 @@ li {
 h2{
     font-size: 30px;
 }
-.Ingredients{
+.ingredients{
     border-bottom: 1px dotted black;
 }
 .process{
     border-bottom: 1px dotted black;
+    padding-top: 30px;
 }
-#recipe ul{
-    margin-bottom: 30px;
-}
-#recipe ul li{
+.ingredient{ 
     display: flex;
-    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.ingredient dt{
+    width: 80%;
     border-bottom: 1px dotted black;
-    padding: 8px 0;
+    padding: 5px 0;
+}
+.ingredient dd{
+    width: 20%;
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
+    text-align: right;
+}
+.detail dt{
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
 }
 a{
     color: inherit;
@@ -69,7 +80,7 @@ footer ul{
     justify-content:center;
 }
 footer li{
-    font-size: 20px;
+    font-size: 0.75rem;
     padding: 0 10px;
 }
 footer p{
