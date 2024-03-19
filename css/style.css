@@ -1,11 +1,8 @@
 body {
-    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo",sans-serif;
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", ;
 }
-ul{
-    padding-left:0
-}
-li {
-    list-style: none;
+ol{
+    padding-left:25px
 }
 #content {
     display: flex;
@@ -34,7 +31,7 @@ li {
     padding: 20px 0;
 }
 h2{
-    font-size: 30px;
+    font-size: 1.25rem;
 }
 .ingredients{
     border-bottom: 1px dotted black;
@@ -58,9 +55,9 @@ h2{
     padding: 5px 0;
     text-align: right;
 }
-.detail dt{
+.detail li{
     border-bottom: 1px dotted black;
-    padding: 5px 0;
+    padding: 7px 0;
 }
 a{
     color: inherit;
@@ -84,7 +81,7 @@ footer li{
     padding: 0 10px;
 }
 footer p{
-    font-size: 20px;
+    font-size: 0.7rem;
     text-align: center;
     margin: 20px 0;
 }
