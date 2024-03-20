@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", ;
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
 }
 ol{
     padding-left:25px
@@ -79,6 +79,7 @@ footer ul{
 footer li{
     font-size: 0.75rem;
     padding: 0 10px;
+    list-style-type: none;
 }
 footer p{
     font-size: 0.7rem;
